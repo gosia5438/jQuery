@@ -9,8 +9,5 @@ h2.css({backgroundColor: 'black',
        color: 'white'});
 var klasaParagrafu = $('.paragraf');
 klasaParagrafu.css({font:'30px',
-                   color: 'green'});
-    
-    
-    
+                   color: 'green'});    
 });
