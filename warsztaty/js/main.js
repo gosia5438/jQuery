@@ -12,6 +12,7 @@ $(function(){
         'width' : slideWidth + '%',
         'margin-left' : index * slideWidth + '%'});
     });
+
     
     //NAWIGACJA
     function slide(newSlideIndex){
@@ -25,11 +26,18 @@ $(function(){
         
         slideShow.animate({
             'margin-left':marginLeft
-        }, 800)
+        }, 800);
         
         
     }
-    $('.prev-slider').click();
+    
+        //Funkcja click
+    
+    $('.prev-slider').click({
+        $(this).function(){
+        
+    }
+    });
     $('.next-slider').click();
     
      
